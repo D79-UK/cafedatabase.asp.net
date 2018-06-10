@@ -33,5 +33,11 @@ namespace cafedatabase.asp.net.Controllers
 
             return View();
         }
+        public ActionResult Event()
+        {
+            ViewBag.Message = "Event page.";
+
+            return View();
+        }
     }
 }
