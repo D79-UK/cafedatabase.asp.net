@@ -51,17 +51,17 @@
 					<ul class="main-nav nav navbar-nav">
                         <li>@Html.ActionLink("Home", "Index", "Home")</li>
                         <li>@Html.ActionLink("About", "About", "Home")</li>
-						<li><a href="#menu">Menu</a></li>
-						<li><a href="#reservation">Reservation</a></li>
+						<li><a href="#menu">Menu</a></li>						
 						<li><a href="#cuisine">Cuisine</a></li>
 						<li><a href="#events">Events</a></li>
-                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Blog", "Blog", "Home")</li>
+                        <li><a href="#contact">Contact Us</a></li>
 					</ul>
 					<!-- /nav -->
                     @Html.Partial("_LoginPartial")
 					<!-- button nav -->
 					<ul class="cta-nav">
-						<li><a href="#" class="main-button">Reserve</a></li>
+						<li><a href="#reservation" class="main-button">Reservation</a></li>
 					</ul>
 					<!-- button nav -->
 
@@ -456,6 +456,7 @@
 		<!-- /Events -->
 
 
+        @Html.Partial("../Home/Contact")
 
 		<!-- Footer -->
 		<footer id="footer">

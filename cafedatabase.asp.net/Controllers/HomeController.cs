@@ -26,5 +26,12 @@ namespace cafedatabase.asp.net.Controllers
 
             return View();
         }
+
+        public ActionResult Blog()
+        {
+            ViewBag.Message = "Blog page.";
+
+            return View();
+        }
     }
 }
